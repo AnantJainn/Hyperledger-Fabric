@@ -1,16 +1,4 @@
-=====================================================================================
 HLF Design & Setup - Fabric 2.x
-
-http://www.bcmentors.com
-https://courses.pragmaticpaths.com
-
-This project file is a part of the course on Hyperledger Fabric.
-The password for this file is available in Lecture#3 of the course. It is changed
-with every new version....so please check it along with the download
-
-Please make sure you get the latest version of the repository. 
-======================================================================================
-
 ===========
 Version Log
 ===========
