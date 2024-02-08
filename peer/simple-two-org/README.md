@@ -109,13 +109,13 @@ cd orderer/simple-two-org
 1. Get the package ID
 peer lifecycle chaincode queryinstalled 
 
-CC_PACKAGE_ID=gocc.1.0-1.0:73b84f18fe3e6cb46ecc8b26aec451db905cd86dbea849542c286b1541693b3c  <<Paste the package ID>>
+CC_PACKAGE_ID=gocc.1.0-1.0:be99a89e88b8a9085164bdb078b4ad1e9c5ce89f72b1da0edbf16f80dd08f7ea  <<Paste the package ID>>
 
 2. Approve the chaincode
 peer lifecycle chaincode approveformyorg -n gocc -v 1.0 -C  acmechannel --sequence 1  --init-required --package-id $CC_PACKAGE_ID
 
 3. Check Commit Readiness
-peer   lifecycle   chaincode   checkcommitreadiness -n gocc -v 1.0 -C  acmechannel --sequence 1 --init-required 
+peer lifecycle chaincode checkcommitreadiness -n gocc -v 1.0 -C  acmechannel --sequence 1 --init-required 
 
 4. Commit the chaincode
 peer lifecycle chaincode commit -n gocc -v 1.0 -C acmechannel --sequence 1 --init-required
