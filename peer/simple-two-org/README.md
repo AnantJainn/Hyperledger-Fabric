@@ -163,7 +163,8 @@ peer lifecycle chaincode install $HOME/packages/$CC_LABEL.tar.gz
 4. Get the package ID
 peer lifecycle chaincode queryinstalled
 
-CC_PACKAGE_ID=<<Set the package ID>>
+<!-- CC_PACKAGE_ID=<<Set the package ID>> -->
+CC_PACKAGE_ID=gocc.1.0-2.0:bcabff000e5a83ab1136309957cecd5bac200dab479845124dcbdf61706e47bc
 
 6. Approve the new package
 # Keep the same sequence number
